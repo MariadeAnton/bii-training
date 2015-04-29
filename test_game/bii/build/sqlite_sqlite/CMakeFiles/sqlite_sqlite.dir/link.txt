@@ -1,0 +1,2 @@
+/usr/bin/ar cr /home/maria/training/test_game/bii/lib/libsqlite_sqlite.a  CMakeFiles/sqlite_sqlite.dir/sqlite3/sqlite3.c.o CMakeFiles/sqlite_sqlite.dir/cmake_dummy.cpp.o
+/usr/bin/ranlib /home/maria/training/test_game/bii/lib/libsqlite_sqlite.a

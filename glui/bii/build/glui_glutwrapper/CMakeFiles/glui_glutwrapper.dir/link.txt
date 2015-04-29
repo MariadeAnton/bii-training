@@ -1,0 +1,2 @@
+/usr/bin/ar cr /home/maria/training/glui/bii/lib/libglui_glutwrapper.a  CMakeFiles/glui_glutwrapper.dir/cmake_dummy.cpp.o
+/usr/bin/ranlib /home/maria/training/glui/bii/lib/libglui_glutwrapper.a

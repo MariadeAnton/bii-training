@@ -1,0 +1,570 @@
+The system is: Linux - 3.13.0-49-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/maria/training/test_game/bii/build/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/maria/training/test_game/bii/build/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec599666683/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec599666683.dir/build.make CMakeFiles/cmTryCompileExec599666683.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec599666683.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec599666683.dir/testCCompiler.c.o   -c /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec599666683
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec599666683.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec599666683.dir/testCCompiler.c.o  -o cmTryCompileExec599666683 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1418673733/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1418673733.dir/build.make CMakeFiles/cmTryCompileExec1418673733.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1418673733.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1418673733.dir/CMakeCCompilerABI.c.o   -c /home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1418673733
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1418673733.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1418673733.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1418673733 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-0ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-0ubuntu1~14.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1418673733' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ0zxnK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1418673733 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec1418673733.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1418673733/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1418673733.dir/build.make CMakeFiles/cmTryCompileExec1418673733.dir/build]
+  ignore line: [make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»]
+  ignore line: [/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1418673733.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1418673733.dir/CMakeCCompilerABI.c.o   -c /home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1418673733]
+  ignore line: [/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1418673733.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1418673733.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1418673733 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-0ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Ubuntu 4.9.2-0ubuntu1~14.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1418673733' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ0zxnK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1418673733 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec1418673733.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZ0zxnK.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1418673733] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec1418673733.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2026456424/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2026456424.dir/build.make CMakeFiles/cmTryCompileExec2026456424.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2026456424.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2026456424.dir/testCXXCompiler.cxx.o -c /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2026456424
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2026456424.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2026456424.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2026456424 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec326568359/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec326568359.dir/build.make CMakeFiles/cmTryCompileExec326568359.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec326568359.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec326568359.dir/CMakeCXXCompilerABI.cpp.o -c /home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec326568359
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec326568359.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec326568359.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec326568359 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-0ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-0ubuntu1~14.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec326568359' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYoy7TU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec326568359 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec326568359.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec326568359/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec326568359.dir/build.make CMakeFiles/cmTryCompileExec326568359.dir/build]
+  ignore line: [make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»]
+  ignore line: [/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec326568359.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec326568359.dir/CMakeCXXCompilerABI.cpp.o -c /home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec326568359]
+  ignore line: [/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec326568359.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec326568359.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec326568359 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-0ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Ubuntu 4.9.2-0ubuntu1~14.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec326568359' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYoy7TU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec326568359 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec326568359.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccYoy7TU.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec326568359] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec326568359.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3654730618/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3654730618.dir/build.make CMakeFiles/cmTryCompileExec3654730618.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3654730618.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec3654730618.dir/CheckFunctionExists.c.o   -c /home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3654730618
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3654730618.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec3654730618.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3654730618 -rdynamic -lX11 -lXext 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3772472519/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3772472519.dir/build.make CMakeFiles/cmTryCompileExec3772472519.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3772472519.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec3772472519.dir/CheckFunctionExists.c.o   -c /home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3772472519
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3772472519.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec3772472519.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3772472519 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2612600456/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2612600456.dir/build.make CMakeFiles/cmTryCompileExec2612600456.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2612600456.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec2612600456.dir/CheckFunctionExists.c.o   -c /home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2612600456
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2612600456.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec2612600456.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2612600456 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4080950957/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4080950957.dir/build.make CMakeFiles/cmTryCompileExec4080950957.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4080950957.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec4080950957.dir/CheckFunctionExists.c.o   -c /home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4080950957
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4080950957.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec4080950957.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4080950957 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec517626653/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec517626653.dir/build.make CMakeFiles/cmTryCompileExec517626653.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec517626653.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec517626653.dir/CheckFunctionExists.c.o   -c /home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec517626653
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec517626653.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec517626653.dir/CheckFunctionExists.c.o  -o cmTryCompileExec517626653 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec109776106/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec109776106.dir/build.make CMakeFiles/cmTryCompileExec109776106.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec109776106.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec109776106.dir/CheckFunctionExists.c.o   -c /home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec109776106
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec109776106.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec109776106.dir/CheckFunctionExists.c.o  -o cmTryCompileExec109776106 -rdynamic -lICE 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files /usr/include/X11/extensions/XInput2.h exist passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3889935094/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3889935094.dir/build.make CMakeFiles/cmTryCompileExec3889935094.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3889935094.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -pedantic    -o CMakeFiles/cmTryCompileExec3889935094.dir/CheckIncludeFiles.c.o   -c /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3889935094
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3889935094.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic     CMakeFiles/cmTryCompileExec3889935094.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3889935094 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2812409149/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2812409149.dir/build.make CMakeFiles/cmTryCompileExec2812409149.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2812409149.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -pedantic    -o CMakeFiles/cmTryCompileExec2812409149.dir/CheckIncludeFiles.c.o   -c /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2812409149
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2812409149.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic     CMakeFiles/cmTryCompileExec2812409149.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2812409149 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec458118506/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec458118506.dir/build.make CMakeFiles/cmTryCompileExec458118506.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec458118506.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -pedantic    -o CMakeFiles/cmTryCompileExec458118506.dir/CheckIncludeFiles.c.o   -c /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec458118506
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec458118506.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic     CMakeFiles/cmTryCompileExec458118506.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec458118506 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1350377653/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1350377653.dir/build.make CMakeFiles/cmTryCompileExec1350377653.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1350377653.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -pedantic    -o CMakeFiles/cmTryCompileExec1350377653.dir/CheckIncludeFiles.c.o   -c /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1350377653
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1350377653.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic     CMakeFiles/cmTryCompileExec1350377653.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1350377653 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3963350067/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3963350067.dir/build.make CMakeFiles/cmTryCompileExec3963350067.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3963350067.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -pedantic    -o CMakeFiles/cmTryCompileExec3963350067.dir/CheckIncludeFiles.c.o   -c /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3963350067
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3963350067.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic     CMakeFiles/cmTryCompileExec3963350067.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3963350067 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files sys/param.h exist passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1201819471/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1201819471.dir/build.make CMakeFiles/cmTryCompileExec1201819471.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1201819471.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -pedantic    -o CMakeFiles/cmTryCompileExec1201819471.dir/CheckIncludeFiles.c.o   -c /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1201819471
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1201819471.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic     CMakeFiles/cmTryCompileExec1201819471.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1201819471 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files sys/ioctl.h exist passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3101989221/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3101989221.dir/build.make CMakeFiles/cmTryCompileExec3101989221.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3101989221.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -pedantic    -o CMakeFiles/cmTryCompileExec3101989221.dir/CheckIncludeFiles.c.o   -c /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3101989221
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3101989221.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic     CMakeFiles/cmTryCompileExec3101989221.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3101989221 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3126334605/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3126334605.dir/build.make CMakeFiles/cmTryCompileExec3126334605.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3126334605.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -pedantic    -o CMakeFiles/cmTryCompileExec3126334605.dir/CheckIncludeFiles.c.o   -c /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3126334605
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3126334605.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic     CMakeFiles/cmTryCompileExec3126334605.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3126334605 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files errno.h exist passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3108656543/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3108656543.dir/build.make CMakeFiles/cmTryCompileExec3108656543.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3108656543.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -pedantic    -o CMakeFiles/cmTryCompileExec3108656543.dir/CheckIncludeFiles.c.o   -c /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3108656543
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3108656543.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic     CMakeFiles/cmTryCompileExec3108656543.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3108656543 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3066616484/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3066616484.dir/build.make CMakeFiles/cmTryCompileExec3066616484.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3066616484.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTryCompileExec3066616484.dir/CheckFunctionExists.c.o   -c /home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3066616484
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3066616484.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday    CMakeFiles/cmTryCompileExec3066616484.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3066616484 -rdynamic -lm 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function vfprintf exists passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1617035206/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1617035206.dir/build.make CMakeFiles/cmTryCompileExec1617035206.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1617035206.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=vfprintf   -o CMakeFiles/cmTryCompileExec1617035206.dir/CheckFunctionExists.c.o   -c /home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vfprintf’
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1617035206
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1617035206.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=vfprintf    CMakeFiles/cmTryCompileExec1617035206.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1617035206 -rdynamic -lm 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3062847009/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3062847009.dir/build.make CMakeFiles/cmTryCompileExec3062847009.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3062847009.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -pedantic    -o CMakeFiles/cmTryCompileExec3062847009.dir/CheckIncludeFiles.c.o   -c /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3062847009
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3062847009.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic     CMakeFiles/cmTryCompileExec3062847009.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3062847009 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1677447202/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1677447202.dir/build.make CMakeFiles/cmTryCompileExec1677447202.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1677447202.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -pedantic    -o CMakeFiles/cmTryCompileExec1677447202.dir/CheckIncludeFiles.c.o   -c /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1677447202
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1677447202.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic     CMakeFiles/cmTryCompileExec1677447202.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1677447202 -rdynamic 
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+
+

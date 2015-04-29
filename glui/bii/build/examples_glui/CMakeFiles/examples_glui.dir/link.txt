@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libexamples_glui.a  CMakeFiles/examples_glui.dir/cmake_dummy.cpp.o
+/usr/bin/ranlib ../../lib/libexamples_glui.a

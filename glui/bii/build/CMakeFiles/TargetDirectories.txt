@@ -1,0 +1,11 @@
+/home/maria/training/glui/bii/build/CMakeFiles/biitest.dir
+/home/maria/training/glui/bii/build/examples_glui/CMakeFiles/examples_glui.dir
+/home/maria/training/glui/bii/build/examples_glui/CMakeFiles/examples_glui_example1.dir
+/home/maria/training/glui/bii/build/examples_glui/CMakeFiles/examples_glui_example2.dir
+/home/maria/training/glui/bii/build/examples_glui/CMakeFiles/examples_glui_example3.dir
+/home/maria/training/glui/bii/build/examples_glui/CMakeFiles/examples_glui_example4.dir
+/home/maria/training/glui/bii/build/examples_glui/CMakeFiles/examples_glui_example5.dir
+/home/maria/training/glui/bii/build/examples_glui/CMakeFiles/examples_glui_example6.dir
+/home/maria/training/glui/bii/build/glui_glui/CMakeFiles/glui_glui.dir
+/home/maria/training/glui/bii/build/glui_glutwrapper/CMakeFiles/glui_glutwrapper.dir
+/home/maria/training/glui/bii/build/sbaker_freeglut/CMakeFiles/sbaker_freeglut.dir

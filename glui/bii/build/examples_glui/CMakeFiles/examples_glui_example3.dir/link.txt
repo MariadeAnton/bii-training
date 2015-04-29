@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/examples_glui_example3.dir/example3.cpp.o  -o ../../../bin/examples_glui_example3 -rdynamic ../../lib/libglui_glui.a ../../lib/libglui_glutwrapper.a ../../lib/libsbaker_freeglut.a -lGL -lGLU -lm -lGL -lm -lGL -lSM -lICE -lX11 -lXext -lXrandr -lXxf86vm -lXi 

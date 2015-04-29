@@ -1,0 +1,3 @@
+/home/maria/training/ptypes/bii/build/amalulla_ptypes/CMakeFiles/amalulla_ptypes_stream.dir
+/home/maria/training/ptypes/bii/build/CMakeFiles/biitest.dir
+/home/maria/training/ptypes/bii/build/melikyan_ptypes/CMakeFiles/melikyan_ptypes.dir

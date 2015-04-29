@@ -1,0 +1,64 @@
+Determining if files usbhid.h exist failed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3652501857/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3652501857.dir/build.make CMakeFiles/cmTryCompileExec3652501857.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3652501857.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall -pedantic    -o CMakeFiles/cmTryCompileExec3652501857.dir/CheckIncludeFiles.c.o   -c /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: usbhid.h: No existe el archivo o el directorio
+ #include <usbhid.h>
+                    ^
+compilation terminated.
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+make[1]: *** [CMakeFiles/cmTryCompileExec3652501857.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3652501857/fast] Error 2
+
+Source:
+/* */
+#include <usbhid.h>
+
+
+int main(){return 0;}
+
+Determining if the function _doprnt exists failed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec155343884/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec155343884.dir/build.make CMakeFiles/cmTryCompileExec155343884.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec155343884.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=_doprnt   -o CMakeFiles/cmTryCompileExec155343884.dir/CheckFunctionExists.c.o   -c /home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec155343884
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec155343884.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=_doprnt    CMakeFiles/cmTryCompileExec155343884.dir/CheckFunctionExists.c.o  -o cmTryCompileExec155343884 -rdynamic -lm 
+CMakeFiles/cmTryCompileExec155343884.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `_doprnt' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+make[1]: *** [cmTryCompileExec155343884] Error 1
+make: *** [cmTryCompileExec155343884/fast] Error 2
+
+
+Determining if the function XParseGeometry exists failed with the following output:
+Change Dir: /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec758700283/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec758700283.dir/build.make CMakeFiles/cmTryCompileExec758700283.dir/build
+make[1]: se ingresa al directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_progress_report /home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec758700283.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry   -o CMakeFiles/cmTryCompileExec758700283.dir/CheckFunctionExists.c.o   -c /home/maria/.biicode_env/cmake-3.0.2-Linux-64/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec758700283
+/home/maria/.biicode_env/cmake-3.0.2-Linux-64/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec758700283.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry    CMakeFiles/cmTryCompileExec758700283.dir/CheckFunctionExists.c.o  -o cmTryCompileExec758700283 -rdynamic -lm 
+CMakeFiles/cmTryCompileExec758700283.dir/CheckFunctionExists.c.o: En la función `main':
+CheckFunctionExists.c:(.text+0x15): referencia a `XParseGeometry' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec758700283] Error 1
+make[1]: se sale del directorio «/home/maria/training/test_game/bii/build/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec758700283/fast] Error 2
+
+

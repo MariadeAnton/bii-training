@@ -1,0 +1,1 @@
+/usr/bin/clang++       CMakeFiles/amalulla_ptypes_stream.dir/stream.cpp.o  -o ../../../bin/amalulla_ptypes_stream -rdynamic ../../lib/libmelikyan_ptypes.a -lpthread 
