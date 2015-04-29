@@ -75,16 +75,16 @@ Keep reading to see how to keep your #includes as usual. You can also :ref:`skip
 
 Instead of using long #includes, you can write the specs to retrieve this dependency in your biicode.conf.
 
-    Split the long #include "lasote/openssl/include/openssl/md5.h" in two halfs:
+Split the long #include "lasote/openssl/include/openssl/md5.h" in two halfs:
 
-[requirements]
-     lasote/openssl: 2
-
-[includes]
-    openssl/md5.h: lasote/openssl/include
-
+	[requirements]
+	     lasote/openssl: 2
+	
+	[includes]
+	    openssl/md5.h: lasote/openssl/include
+	
 You can also use patterns:
-
+	
 	[includes]
 	    openssl/*.h: lasote/openssl/include
 
@@ -109,9 +109,8 @@ Using an IDE
 
 biicode configures your default settings to no IDE and MinGW (Windows) or UNIX Makefiles (MacOS and Linux). You can change these values executing bii configure before bii build:
 
-    ~/unit_test$ bii configure -G "Visual Studio 10"
-    ~/unit_test$ bii build
-
+	~/unit_test$ bii configure -G "Visual Studio 10"
+	~/unit_test$ bii build
 
 # Publishing
 
@@ -119,17 +118,17 @@ Publish to make your libs available in biicode.
 
         Execute $ bii user your_username.
 
-~/unit_test$ bii publish
-
-INFO: *****************************
-INFO: ***** Publishing public ****
-INFO: *****************************
-INFO: Successfully published your_username/hola: 0
+	~/unit_test$ bii publish
+	
+	INFO: *****************************
+	INFO: ***** Publishing public ****
+	INFO: *****************************
+	INFO: Successfully published your_username/hola: 0
 
 Go to your profile at www.biicode.com/your_username to check what you've just uploaded.
 
-    Log in to edit the block's web description.
-    Make sure you've got an account to publish. It's free.
+    - Log in to edit the block's web description.
+    - Make sure you've got an account to publish. It's free.
 
 Take a look into your block's biicode.conf file (~/hola/biicode.conf). [parent] section tells you "who is your parent version", the latest published version of your block and looks like this:
 
