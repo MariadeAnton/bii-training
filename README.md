@@ -1,6 +1,6 @@
-#Getting started
+#Getting started @ ETSIDI
 
-## Welcome to biicode training getting started.
+## Welcome to biicode
 
 Biicode manages your project's dependencies so you can use the libs you need (Curl, Catch, Fann, OpenSSL, OpenCV, Poco, Boost, Libuv, GTest ...) as you wish within your project. Biicode uses CMake to configure and build your projects and it is compatible with many IDEs and version control systems.
 
@@ -46,12 +46,12 @@ The #include is composed as #include <biicode_user>/<block_name>/path/to/file. I
 
 In the web, you see its latest version is 3 tagged DEV and 2 STABLE:
 
-/_img/openssl_md5.png
+![](https://github.com/MariadeAnton/bii-training/blob/master/_img/openssl_md5.png)
 
 Retrieve the dependency:
 
-~$ bii find
-...
+	~$ bii find
+	...
 
 	INFO: Analyzing compatibility for found dependencies...
 	INFO: All dependencies resolved
@@ -136,5 +136,4 @@ Take a look into your block's biicode.conf file (~/hola/biicode.conf). [parent] 
 	[parent]
 	   your_username/hola: 0
 
-Celebrate! You've just published your first block in biicode. You know that we are available at |biicode_forum_link| for any issues. You can also write us at support@biicode.com for suggestions and feedback.
-
+Celebrate! You've just published your first block in biicode. You know that we are available at biicode forum for any issues. You can also write us at support@biicode.com for suggestions and feedback.
