@@ -5,7 +5,9 @@
 Biicode manages your project's dependencies so you can use the libs you need (Curl, Catch, Fann, OpenSSL, OpenCV, Poco, Boost, Libuv, GTest ...) as you wish within your project. Biicode uses CMake to configure and build your projects and it is compatible with many IDEs and version control systems.
 
 This guide will help you get your first biicode block off the ground. Let's run a block with a unit test using the ptypes block in biicode. There's no need to install OpenSSL, biicode downloads and configures it for you, OpenSSL is already in biicode!
+
 ## Basics
+
 Make sure biicode is installed. Open the terminal and execute bii setup:cpp to ensure you've got all tools required.
 
 ## Create your first project
