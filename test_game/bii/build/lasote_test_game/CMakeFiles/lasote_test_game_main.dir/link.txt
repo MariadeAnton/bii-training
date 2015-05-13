@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/lasote_test_game_main.dir/main.cpp.o  -o ../../../bin/lasote_test_game_main -rdynamic ../../lib/liblasote_test_game.a ../../lib/liberincatto_box2d.a ../../lib/libglui_glui.a ../../lib/libglui_glutwrapper.a ../../lib/libsbaker_freeglut.a -lGL -lGLU -lGL -lSM -lICE -lX11 -lXext -lXrandr -lXxf86vm -lXi ../../lib/libsqlite_sqlite.a -lm -lpthread -ldl 

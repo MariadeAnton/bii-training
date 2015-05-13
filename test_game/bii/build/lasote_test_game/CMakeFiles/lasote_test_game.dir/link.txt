@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../lib/liblasote_test_game.a  CMakeFiles/lasote_test_game.dir/game.cpp.o CMakeFiles/lasote_test_game.dir/save.cpp.o CMakeFiles/lasote_test_game.dir/cmake_dummy.cpp.o
-/usr/bin/ranlib ../../lib/liblasote_test_game.a

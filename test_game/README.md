@@ -15,10 +15,10 @@ Using opening from biicode
 Open the block and build it:
 
 	bii open lasote/test_game
-	bii cpp:build
+	bii build
 	
 
-Or create a main like this and make 'bii find' and 'bii cpp:build':
+Or create a main like this and make 'bii find' and 'bii build':
 
 
     #include "lasote/test_game/game.h"
