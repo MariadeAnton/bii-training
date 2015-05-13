@@ -1,8 +1,6 @@
 biicode for newbies
 ===================
 
-As we all know, biicode is a tool for C++ devs to add de
-
 How to start a project
 ----------------------
 * bii init -L
