@@ -1,26 +1,37 @@
 # Using biicode in your projects
 
-Turn your project into a bii-project: 
+Turn your project into a bii-project → 3 things needed: 
 
-2 things needed: 
+- ``cd`` in your project and ``bii init -L ``
+- A specific CMakeLists.txt or biicode.cmake  
+- A biicode.conf file
 
-** A specific CMakeLists.txt or biicode.cmake 
-* A biicode.conf file
+## biicode.conf and misssing dependencies
 
-## Write your biicode.conf file: 
+Run ``bii deps`` and check what's missing -> 
+  
+ - local headers? write [paths] 
+ - external libraries? look for them in biicode and write your dependencies vía [requirements] and [includes] 
+ - Are you using boost? →As boost is huge writing it's dependency 
+Use this call better:
 
-``cd`` in your project and ``bii init -L ``
-run ``bii deps``
-check what's missing -> 
-    -> local headers? write [paths] 
-    -> external libraries? look for them in biicode and write your dependencies vía [requirements] and [includes] Are you using boost?* 
+bii_find_boost(COMPONENTS thread REQUIRED)
 
-## Write your build config:
+(Thread isn't header only)
+
+Here's the full list with the non header only ones: https://blog.feabhas.com/2015/05/bitesize-modern-c/
+
+## build config
 
 ### Without an existing CMakeLists.txt :
-    Create a CMakeLists.txt and write in it: 
+  Create a CMakeLists.txt and write in it: 
 
         ADD_BII_TARGETS()
+        
+
+#### Using boost
+
+
 
 ### With an existing CMakeLists.txt :
    +  Create a biicode.cmake and write in it:
@@ -34,6 +45,8 @@ check what's missing ->
           RETURN()
       ENDIF()
 
+  + and write your biicode .conf
+   
 ## Does it build now?
 
     bii build 

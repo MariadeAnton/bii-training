@@ -12,7 +12,7 @@ Make sure biicode is installed.
 
 Run ``bii setup:cpp`` to ensure you've got all tools required. 
 
-Note: don't install MinGW if you already got Visual Studio.
+Note: don't install MinGW if you already got other compiler (Clang, Visual Studio...)
 
 ## Create your first project
 
@@ -24,7 +24,7 @@ Create a project with this sample code in it:
     cd hola
     echo "//main.cpp code goes here" >> main.cpp
 
-Place this code into the main.cpp file:
+Place your code into the main.cpp file -> I'm using this OpenSSL example code:
 
 	#include "openssl/md5.h"
 	#include <stdio.h>
@@ -49,9 +49,9 @@ Place this code into the main.cpp file:
 
 ### biicodize your project
 
-Run ``bii init -L`` in your project, this turns your project into a biicode block. It creates two auxilary folders *bii* and *bin* which you can ignore if you're using git or any other version control system.
+Run ``bii init -L`` in your project, this turns your project into a biicode block. It creates two auxiliary folders *bii* and *bin* which you can ignore if you're using git or any other version control system.
 
-Create a *biicode.conf* file → bii's depencencies info (but boost's*) will go here!
+Create a *biicode.conf* file → bii's dependencies info (but boost's*) will go here!
 
 Search OpenSSL in the web, you can see there's a lasote/openssl block whose latest version is 3 tagged DEV:
 
@@ -75,27 +75,27 @@ You can also use patterns:
 
 Build your project:
 
-	~/hola$ bii build
+	bii build
 
 Using an IDE? 
 biicode configures your default settings to no IDE and MinGW (Windows) or UNIX Makefiles (MacOS and Linux). Change this settings, run bii configure before bii build:
 
-	~/unit_test$ bii configure -G "Visual Studio 10"
-	~/unit_test$ bii build
+	bii configure -G "Visual Studio 10"
+	bii build
 
 **Note that CLion and Eclipse need a special kind of project to be compatible. Read it here (link soon)
 
 Run it:
 
-	~/hola$ bin/user_hola_main
-
-	md5 digest: b5f9c8ffcccde4e7e17e0059840a6b43
+	bin/user_hola_main
 
 Linux/Mac users might run as:
 
-	~/hola$ ./bin/user_hola_main
+	./bin/user_hola_main
 
-That's it, that output means OpenSSL was downloaded, configured and built in your project!
+Expected output - similar to this one:
+
+	md5 digest: b5f9c8ffcccde4e7e17e0059840a6b43
 
 
 # Publishing
@@ -122,4 +122,8 @@ Take a look into your block's biicode.conf file (~/hola/biicode.conf). [parent] 
 	[parent]
 	   your_username/hola: 0
 
-Celebrate! You've just published your first block. You know that we are available at biicode forum for any issues. You can also write us at support@biicode.com for suggestions and feedback.
+Celebrate! You've just published your first block. 
+
+Here are some [examples depending on some popular libraries available](http://docs.biicode.com/c++/examples.html). 
+
+You know that we are available at biicode forum for any issues. You can also write us at support@biicode.com for suggestions and feedback.
