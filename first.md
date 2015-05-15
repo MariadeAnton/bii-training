@@ -13,11 +13,11 @@ Run ``bii deps`` and check what's missing ->
  - local headers? write [paths] 
  - external libraries? look for them in biicode and write your dependencies vía [requirements] and [includes] 
  - Are you using boost? →As boost is huge writing it's dependency 
-Use this call better:
+    Use this call better:
 
-bii_find_boost(COMPONENTS thread REQUIRED)
+      bii_find_boost(COMPONENTS thread REQUIRED)
 
-(Thread isn't header only)
+    * (Thread isn't header only)
 
 Here's the full list with the non header only ones: https://blog.feabhas.com/2015/05/bitesize-modern-c/
 
@@ -40,10 +40,10 @@ Here's the full list with the non header only ones: https://blog.feabhas.com/201
 
    +  Write in your CMakeLists.txt : 
  
-      IF(BIICODE)
-          INCLUDE("biicode.cmake")
-          RETURN()
-      ENDIF()
+        IF(BIICODE)
+            INCLUDE("biicode.cmake")
+            RETURN()
+        ENDIF()
 
   + and write your biicode .conf
    
@@ -52,6 +52,8 @@ Here's the full list with the non header only ones: https://blog.feabhas.com/201
     bii build 
 
 ## Build options 
+
+All build options -> http://docs.biicode.com/c++/adapt_library_guide.html#without-a-previous-cmakelists-txt
 
 ## Handling dependencies
 
