@@ -7,7 +7,7 @@ biicode for newbies
 * Project/Block
 * Structure: own folders and bii & bin folder
 
-[IDE configurations](newbies-guide/ide-configuration.md)
+[IDE configurations](newbies-guide/ide-configurations.md)
 --------------------
 * bii configure
 * Working with no IDE: MinGW Makefiles || Unix Makefiles
