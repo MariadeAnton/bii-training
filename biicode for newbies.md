@@ -1,14 +1,14 @@
 biicode for newbies
 ===================
 
-How to start a project
-----------------------
-* bii init -L
+[How to start a project](newbies-guide/start-project.md)
+------------------------
+* bii init/bii init -L
 * Project/Block
 * Structure: own folders and bii & bin folder
 
-IDE configurations
-------------------
+[IDE configurations](newbies-guide/ide-configuration.md)
+--------------------
 * bii configure
 * Working with no IDE: MinGW Makefiles || Unix Makefiles
 * Working with VS: explain build folder
